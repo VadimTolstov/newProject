@@ -11,6 +11,8 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class LoginTests {
+
+
   //  static WebDriverWait driver;
     @Test
     void successfulLginTest(){
@@ -31,6 +33,8 @@ public class LoginTests {
         
         //проверить наличие текста
         $(".logined-form").shouldHave(text("QA_GURU_BOT"));
+
+
 /*
         open("http://cargo-dev2n.smartcom.local/");
         $("[name=login]").setValue("VadimT");
@@ -43,6 +47,5 @@ public class LoginTests {
 */
 
     }
-
 
 }
